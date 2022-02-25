@@ -2,9 +2,22 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// export const environment = {
+//   production: false
+// };
+
+
 export const environment = {
-  production: false
-};
+  production: false,
+  firebase: {
+    projectId: 'simple-crm-55a53',
+    appId: '1:567495685003:web:6bf0cb87f6e2bb70b0b58e',
+    storageBucket: 'simple-crm-55a53.appspot.com',
+    apiKey: 'AIzaSyDMJhInbNrk2zMUklXeLdeQ3YaRBj3QN8I',
+    authDomain: 'simple-crm-55a53.firebaseapp.com',
+    messagingSenderId: '567495685003',
+  }
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
